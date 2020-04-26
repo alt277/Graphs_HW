@@ -15,7 +15,6 @@ public class Graph {
         this.conectionArr = new boolean[vertexCount][vertexCount];
         this.pointers= new int[vertexCount];
     }
-
     // добавляем вершину
     public void addVertex(String value){
         vertexList.add(new Vertex(value));   // добавляем   в лист вершин
